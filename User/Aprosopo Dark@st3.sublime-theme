@@ -1,0 +1,86 @@
+[
+  // sidebar heading (bold/white)
+  {
+    "class": "sidebar_heading",
+    "color": [255, 255, 255],
+    "font.bold": true,
+    "shadow_color": [0, 0, 0],
+    "shadow_offset": [0, -1],
+  },
+
+  // Sidebar labels
+  {
+    "class": "sidebar_label",
+    "color": [145, 145, 145],
+    "shadow_offset": [0, 0]
+  },
+  {
+    "class": "sidebar_label",
+    "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+    "color": [255, 255, 255]
+  },
+  {
+    "class": "sidebar_label",
+    "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+    "color": [255, 186, 85]
+  },
+  {
+    "class": "sidebar_label",
+    "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+    "color": [185, 185, 185],
+  },
+  {
+    "class": "sidebar_label",
+    "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
+    "color": [255, 186, 85]
+  },
+   // Tab set scroll left scroll right and dropdown
+  {
+    "class": "scroll_tabs_left_button",
+    "content_margin": [8, 8],
+    "layer0.tint": [135, 135, 135],
+    "layer0.opacity": 1.0,
+    "layer0.inner_margin": 0
+  },
+  {
+    "class": "scroll_tabs_right_button",
+    "content_margin": [8, 8],
+    "layer0.tint": [135, 135, 135],
+    "layer0.opacity": 1.0,
+    "layer0.inner_margin": 0
+  },
+  // {
+  //   "class": "tab_control",
+  //   "attributes": ["hover"],
+  //   "layer0.tint": [68, 124, 178],
+  //   "layer0.opacity": 1.0
+  // }
+  // minimap
+  {
+    "class": "minimap_control",
+    "viewport_color": [102, 153, 204, 50]
+  },
+
+  // status bar
+  {
+    "class": "label_control",
+    // "color": [145, 186, 226],
+    "font.size" : 12
+  },
+  {
+    "class": "disclosure_button_control",
+    "attributes": ["expanded"],
+    "layer0.texture": "Theme - Aprosopo/Common/minus.png",
+  },
+
+  {
+    "class": "sidebar_tree",
+    "row_padding": [6, 3],
+    "indent": 14,
+    "indent_offset": 10,
+    "indent_top_level": false,
+    "layer0.tint": [20, 23, 25],
+    "layer0.opacity": 1.0,
+    "dark_content": true
+  },
+]

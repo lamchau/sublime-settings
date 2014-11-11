@@ -1,0 +1,24 @@
+[
+    // icons
+    {
+        "class": "icon_file_type",
+        "content_margin": [0,0]
+    },
+    {
+        "class": "icon_folder",
+        "content_margin": [0,0]
+    },
+    {
+        "class": "icon_folder_loading",
+        "content_margin": [0,0]
+    },
+
+    // tabs
+    {
+        "class": "tab_control",
+
+
+        "tint_modifier": [255, 20, 0, 0],
+
+    },
+]

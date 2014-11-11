@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[(function() {
+  $SELECTION$1
+})();]]></content>
+  <tabTrigger>ff</tabTrigger>
+  <scope>source.js</scope>
+  <description>Immediately Invoked Function Expression</description>
+</snippet>

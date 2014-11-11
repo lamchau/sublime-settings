@@ -1,0 +1,41 @@
+[
+  // highlight modified files (orange for dirty files, like default theme)
+  {
+    "class": "tab_label",
+    "settings": ["highlight_modified_tabs"],
+    "parents": [{
+      "class": "tab_control",
+      "attributes": ["dirty"]
+    }],
+    // "fg": [120, 170, 250], // blue
+    "fg": [253, 136, 1] // orange
+  },
+
+  // sidebar heading (bold/white)
+  {
+    "class": "sidebar_heading",
+    "color": [255, 255, 255],
+    "font.bold": true,
+    "shadow_color": [0, 0, 0],
+    "shadow_offset": [0, -1],
+  },
+
+  // Sidebar entry selected (orange to show current file)
+  {
+    "class": "sidebar_label",
+    "parents": [{
+      "class": "tree_row",
+      "attributes": ["selected"]
+    }],
+    "color": [253, 136, 1],
+    "shadow_color": [0, 0, 0],
+    "shadow_offset": [0, 1]
+  },
+
+  // Sidebar row selected (subtle tweak)
+  {
+    "class": "tree_row",
+    "attributes": ["selected"],
+    "layer0.opacity": 0.75
+  },
+]
