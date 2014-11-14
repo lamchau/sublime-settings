@@ -8,7 +8,7 @@
     { "keys": ["ctrl+shift+o"],       "command": "insert_snippet", "args": { "name": "Packages/JavaScript/JavaScript-IIFE.sublime-snippet" },
                                       "context": [{"key": "selector", "operator": "equal", "operand": "source.js"}]
     },
-    { "keys": ["ctrl+alt+j"],         "command": "insert_snippet", "args": { "name": "Packages/JavaScript/JavaScript-jsdoc.sublime-snippet" },
+    { "keys": ["ctrl+alt+shift+j"],   "command": "insert_snippet", "args": { "name": "Packages/JavaScript/JavaScript-jsdoc.sublime-snippet" },
                                       "context": [{"key": "selector", "operator": "equal", "operand": "source.js"}]
     }
 ]
