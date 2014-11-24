@@ -1,8 +1,11 @@
+bz2/
 HTML-CSS-JS Prettify/
 JSHint Gutter/*
 !JSHint Gutter/.jshintrc
+PyV8/
+Seti_UI/
 SublimeREPL/
 Theme - Default/
 Theme - Soda/
-User/.SublimeREPLHistory/js.db
+User/.SublimeREPLHistory
 User/Package Control*
