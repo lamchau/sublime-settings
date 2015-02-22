@@ -1,0 +1,12 @@
+{
+  "extensions": [
+    "__file-string.sh",
+    "__misc.sh",
+    "ackrc",
+    "bash_aliases",
+    "color_variables.sh",
+    "command_completion.sh",
+    "shell_options.sh",
+    "shell_prompt.sh",
+  ]
+}
